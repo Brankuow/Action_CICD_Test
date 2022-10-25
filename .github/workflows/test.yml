@@ -1,9 +1,6 @@
 name: Test
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '23 0 * * *'
-    - cron: '23 12 * * *'
 jobs:
   Job:
     runs-on: ubuntu-latest
